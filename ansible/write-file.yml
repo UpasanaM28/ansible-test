@@ -1,0 +1,6 @@
+---
+- name: Write a simple file.
+  hosts: localhost
+  gather_facts: no
+  tasks:
+    - name: W
