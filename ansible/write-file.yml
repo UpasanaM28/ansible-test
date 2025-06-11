@@ -6,5 +6,5 @@
     - name: Write a file.
       ansible.builtin.lineinfile:
         path: test.txt
-        line: hii
+        line: hiiii
         create: true
