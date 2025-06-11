@@ -3,4 +3,8 @@
   hosts: localhost
   gather_facts: no
   tasks:
-    - name: W
+    - name: Write a file.
+      ansible.builtin.lineinfile:
+        path: test.txt
+        line: hii
+        create: true
